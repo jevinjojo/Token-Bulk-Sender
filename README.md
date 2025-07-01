@@ -1,17 +1,21 @@
-1. Create a basic react/nextjs application ✅
-2. Connect the wallet with nicer connect application
-3. Implement this function
+# Bulk Token Sender
 
-```Javascript
+Send ERC20 tokens to multiple addresses in one transaction. Save time and gas fees!
 
-function airdropERC20 (
-  address tokenAddress, // ERC20 Token
-  address[] calldata receipients,
-  uint256[] calldata amounts,
-  uint256 totalAmount,
-)
-4. e2e Testing 
-  1. when connected, we see the form 
-  2. when disconnected, we don't
-5. Deploy to fleek
-```
+![App Screenshot](/public/screenshot.png) <!-- Add your screenshot -->
+
+## Features
+
+- 📦 Send to multiple addresses at once
+- 🔒 Safe mode with full checks
+- ⚡ Unsafe mode for gas optimization
+
+## How to Use
+
+1. **Enter Token Address** (e.g., `0x...`)
+2. **Add Recipients** (separate by commas or new lines)
+3. **Enter Amounts** (same order as recipients)
+4. **Choose Mode**:
+   - 🟢 Safe (recommended)
+   - 🔴 Unsafe (gas optimized)
+5. **Click "Send Tokens"**
