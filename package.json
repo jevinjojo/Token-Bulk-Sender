@@ -1,6 +1,7 @@
 {
   "name": "ts-tsender",
   "version": "0.1.0",
+  "packageManager": "pnpm@7.5.1",
   "private": true,
   "scripts": {
     "anvil": "pnpm anvil --load-state tsender-deployed.json",
@@ -36,4 +37,5 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4"
   }
+
 }
