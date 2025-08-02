@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/d6c2d9b1-11cc-4c94-a767-8be1b3910873
 
 
 
-## Features
+## Features.
 
 - 📦 Send to multiple addresses at once
 - 🔒 Safe mode with full checks
